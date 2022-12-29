@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 44;
+var catsperline= 6;
+var lines = Math.ceil(cats / catsperline);
+var lonelycats = cats % lines;
+console.log('Gatti totali: ' + cats);
+console.log('Gatti per fila: ' + catsperline);
+console.log('File: ' + lines);
+console.log('Gatti mancanti: ' + lonelycats);
